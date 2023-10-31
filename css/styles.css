@@ -46,6 +46,11 @@ address {
     padding-left: 16px;
 }
 
+/* Phone*/
+
+@media screen and (max-width: 320px) 
+
+
 /* TABLET */
 @media screen and (min-width: 768px) {
     .container {
@@ -438,9 +443,14 @@ address {
     flex-wrap: wrap;
 }
 
-.features-content {
+/*.features-content {
+    margin-bottom: 72px;
+}*/
+
+.features-text:not(:last-child) {
     margin-bottom: 72px;
 }
+
 
 .antenna {
     display: none;
@@ -481,6 +491,7 @@ address {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     align-self: stretch;
+    margin-bottom: 8px;
 }
 
 .features-text {
@@ -735,7 +746,9 @@ address {
     margin-bottom: 72px;
 }
 
-.footer-container-two {}
+.footer-container-two {
+    margin-bottom: 72px;
+}
 
 .footer-social-madia {
     flex-shrink: 0;
@@ -1393,7 +1406,9 @@ address {
 
     .features-text {
         font-weight: 400;
+        margin-bottom: 72px;
     }
+
 
     /** =========third========== */
 

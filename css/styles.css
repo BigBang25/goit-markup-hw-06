@@ -46,6 +46,21 @@ address {
     padding-left: 16px;
 }
 
+/* TABLET */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+/* DESCKTOP */
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+        padding: 0 15px;
+    }
+}
+
 .header-container {
     align-items: center;
     display: flex;
@@ -58,6 +73,7 @@ address {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+        position: sticky;
 }
 
 .header-navigation {
@@ -123,7 +139,7 @@ address {
 .header-navigation-link a {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+/**
 .header-navigation-link a::after {
     content: "";
     position: absolute;
@@ -141,7 +157,7 @@ address {
     transform: scaleX(1);
     transform-origin: left;
 }
-
+**/
 .header-navigation-btns {
     color: #2e2f42;
     font-size: 16px;
@@ -862,7 +878,7 @@ address {
         visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.is-open {
+.is-hidden {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;

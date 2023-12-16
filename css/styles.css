@@ -50,6 +50,18 @@ address {
         padding-right: 16px;
         padding-left: 16px;
     }
+
+        .unlock-menu {
+            fill: #2f2f37;
+            border: none;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            cursor: pointer;
+            padding-right: 0;
+        }
 }
 
 
@@ -58,7 +70,7 @@ address {
 /* TABLET */
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 768px;
+        max-width: 320px;
     }
 }
 
@@ -193,17 +205,7 @@ address {
     color: #404bbf;
 }
 
-.unlock-menu {
-    fill: #2f2f37;
-    border: none;
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    cursor: pointer;
-    padding-right: 0;
-}
+
 
 /*=====mobmenu======*/
 
@@ -370,7 +372,7 @@ address {
     .first {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/Dark-bg2.jpg);
+            url(../images/back-img/Dark-mob-bg@2.jpg);
     }
 }
 
@@ -1290,6 +1292,13 @@ address {
         min-height: 584px;
     }
 }
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .first {
+        background-image: url(../images/back-img/Dark-tablet-bg@2.jpg);
+    }
+}
 
 @media screen and (min-width: 1158px) {
     .container {
@@ -1339,7 +1348,7 @@ address {
         .first {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
-                url(../images/Dark-bg.jpg);
+                url(../images/back-img/people-office-1des_@2x.jpg);
         }
     }
 

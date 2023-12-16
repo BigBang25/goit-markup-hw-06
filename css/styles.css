@@ -40,15 +40,19 @@ address {
     font-style: normal;
 }
 
-.container {
-    max-width: 320px;
-    padding-right: 16px;
-    padding-left: 16px;
-}
+
 
 /* Phone*/
 
-@media screen and (max-width: 320px) 
+@media screen and (max-width: 767px)  {
+.container {
+        max-width: 320px;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+}
+
+
 
 
 /* TABLET */
@@ -354,7 +358,7 @@ address {
     display: flex;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/back-img/people-office-1des.jpg);
+        url(../images/back-img/Dark-mob-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1133,7 +1137,7 @@ address {
         margin-top: 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/Dark-bg.jpg);
+            url(../images/back-img/Dark-tablet-bg.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -1323,7 +1327,7 @@ address {
         align-items: center;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/Dark-bg.jpg);
+            url(../images/back-img/people-office-1des.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;

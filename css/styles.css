@@ -1255,6 +1255,8 @@ address {
         flex-wrap: wrap;
         flex-direction: row;
         align-items: baseline;
+        justify-content: center;
+
     }
 
     .footer-container-one {

@@ -50,6 +50,7 @@ address {
         max-width: 320px;
         padding-right: 16px;
         padding-left: 16px;
+        margin: 0 auto;
     }
 
 
@@ -403,7 +404,7 @@ address {
 }
 
 .first-container {
-    margin: 0;
+    
 }
 
 /**====================*/
@@ -428,10 +429,10 @@ address {
 }
 
 .features-list {
-    width: 100%;
     flex-direction: column;
     align-items: flex-start;
     flex-wrap: wrap;
+    gap: 72px;
 }
 
 /*.features-content {
@@ -697,7 +698,7 @@ address {
 }
 
 .footer-container {
-    margin: 0;
+    
 }
 
 .footer-container-one {
@@ -738,7 +739,7 @@ address {
 }
 
 .footer-container-two {
-    margin-bottom: 80px;
+    /*margin-bottom: 80px;*/
 }
 
 .footer-social-madia {
@@ -1097,7 +1098,7 @@ address {
     }
 
     .container {
-        max-width: 584px;
+        max-width: 768px;
         padding-left: 16px;
         padding-right: 16px;
         margin: 0 auto;
@@ -1116,10 +1117,17 @@ address {
         justify-content: space-between;
     }
 
+        .header-contacts {
+            
+            margin-left: auto;
+            
+        }
+
     .header-contacts-list {
         display: block;
         align-items: center;
-        gap: 40px;
+        gap: 12px;
+        /*gap: 40px;*/
     }
 
         .header-contacts-communication {
@@ -1202,10 +1210,11 @@ address {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
+        justify-content: center;
     }
 
     .third-content {
-        width: calc((100% - 24px) / 2);
+        /*width: calc((100% - 24px) / 2);*/
     }
 
     /*----Our Portfolio Fourth------*/
@@ -1336,6 +1345,12 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
         gap: 40px;
     }
 
+        .header-contacts-communication {
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+        }
+
     /** =========first========== */
 
     .first {
@@ -1428,7 +1443,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 
     .features-text {
         font-weight: 400;
-        margin-bottom: 72px;
+        /*margin-bottom: 72px;*/
     }
 
 
@@ -1466,7 +1481,9 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
         padding: 100px 0;
     }
 
-    .footer-container {}
+    .footer-container {
+        gap: unset;
+    }
 
     .footer-container-one {
         margin-right: 120px;

@@ -429,6 +429,7 @@ address {
 }
 
 .features-list {
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -739,7 +740,7 @@ address {
 }
 
 .footer-container-two {
-    /*margin-bottom: 80px;*/
+    margin-bottom: 72px;
 }
 
 .footer-social-madia {
